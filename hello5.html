@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div id="root"></div>
+  <script>
+    let start = {
+      at : "home",
+      order : ["눈뜨기", "고양이쓰담", "알람끄기", "하품하기"]
+    };
+    let inProgress = {
+      at : "road",
+      order: []
+    };
+    let end = {
+      at : "academy",
+      order: []
+    };
+    let lifeCycle = [start, inProgress, end];
+
+    console.log(lifeCycle[1].order);
+  </script>
+</body>
+</html>
